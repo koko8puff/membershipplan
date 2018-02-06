@@ -123,8 +123,12 @@ li {
   flex-grow: 1;
 }
 
+.clickable-card {
+  padding-top: 2em;
+}
+
 .pt-6, .py-6 {
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 
 .p-4 {
@@ -204,6 +208,21 @@ white-space: nowrap;
     color: #67bfbc;
 }
 
+@media only screen and (max-width: 768px) {
+  .justify-content-center {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.clickable-card {
+  min-width: 400px;
+  }
+}
 /* @media (min-width: 768px){
   .d-md-flex {
     display: flex!important;
