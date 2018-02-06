@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: Oxygen,Segoe UI,Helvetica Neue,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: white;
+}
+
+.pricingPlan {
+    background-color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+}
+
+.py-6 {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+div{
+  display: block;
+}
+
+p{
+  display: block;
+  text-align: center;
+  line-height: 1.6;
+}
+
+h2 {
+font-size: 2rem;
+display: block;
+text-align: center;
+margin-bottom: .5rem;
+font-weight: 800;
+line-height: 1.2;
+color:  #1CA2CB;
+margin-top: 0;
+}
+
+h3{
+  margin-top: 0;
+  font-weight: 800;
+  line-height: 1.2;
+  display: block;
+}
+
+.readable-measure {
+    max-width: 35rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-4{
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.justify-content-center {
+  justify-content: center;
+  display: flex;
+}
+
+@media (min-width: 768px).d-md-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 768px)
+marketing-52a66…2fd451da.css:1
+.clickable-card {
+    margin-right: 1.5rem;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+li {
+  list-style-type: none;
+}
+
+.clickable-card {
+  flex:1;
+  max-width: 30rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  transition: box-shadow .25s ease-in;
+  border: 0;
+}
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0;
+  margin: 1rem;
+}
+
+.clickable-card .clickable-card__link {
+  color: #212529;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.clickable-card .clickable-card__main-content {
+  flex-grow: 1;
+}
+
+.pt-6, .py-6 {
+  padding-top: 5rem;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+.text-muted{
+  color: #868e96!important;
+}
+
+a{
+  text-decoration: none;
+  background-color: transparent;
+  touch-action: manipulation;
+}
+
+.card__banner {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  background-color: #1CA2CB;
+  color: #fff;
+  padding: .25rem 1rem;
+}
+
+.card-title {
+  color: #212529;
+  font-size: 1.1rem;
+  margin-bottom: .75rem;
+}
+
+.card__price {
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+b {
+    font-weight: 800;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #1CA2CB;
+    color: #1CA2CB;
+}
+
+.btn-block {
+    display: block;
+    /* width: 100%; */
+}
+
+.btn {
+cursor: pointer;
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+user-select: none;
+vertical-align: middle;
+padding: 1rem 2rem;
+font-size: 1rem;
+line-height: 1.25;
+border-radius: 0;
+transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #1CA2CB;
+    color: #fff;
+}
+
+.plan-percent-off {
+    color: #67bfbc;
+}
