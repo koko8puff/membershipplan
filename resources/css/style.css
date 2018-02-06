@@ -80,19 +80,6 @@ h3{
   display: flex;
 }
 
-@media (min-width: 768px).d-md-flex {
-  display: flex;
-  justify-content: space-around;
-}
-
-@media (min-width: 768px)
-marketing-52a66…2fd451da.css:1
-.clickable-card {
-    margin-right: 1.5rem;
-    margin-left: 0;
-    margin-bottom: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -216,3 +203,24 @@ white-space: nowrap;
 .plan-percent-off {
     color: #67bfbc;
 }
+
+/* @media (min-width: 768px){
+  .d-md-flex {
+    display: flex!important;
+  }
+}
+
+@media (min-width: 768px){
+.clickable-card {
+    margin-right: 1.5rem;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 480px)
+.clickable-card {
+  body {
+    font-size: 1em;
+  }
+} */
